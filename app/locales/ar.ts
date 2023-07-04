@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
-import { LocaleType } from "./index";
+import type { PartialLocaleType } from "./index";
 
-const ar: LocaleType = {
+const ar: PartialLocaleType = {
   WIP: "قريبًا...",
   Error: {
     Unauthorized:
@@ -100,13 +100,7 @@ const ar: LocaleType = {
   Settings: {
     Title: "الإعدادات",
     SubTitle: "جميع الإعدادات",
-    Actions: {
-      ClearAll: "مسح جميع البيانات",
-      ResetAll: "إعادة تعيين جميع الإعدادات",
-      Close: "إغلاق",
-      ConfirmResetAll: "هل أنت متأكد من رغبتك في إعادة تعيين جميع الإعدادات؟",
-      ConfirmClearAll: "هل أنت متأكد من رغبتك في مسح جميع البيانات؟",
-    },
+
     Lang: {
       Name: "Language", // تنبيه: إذا كنت ترغب في إضافة ترجمة جديدة، يرجى عدم ترجمة هذه القيمة وتركها "Language"
       All: "كل اللغات",
